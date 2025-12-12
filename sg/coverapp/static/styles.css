@@ -1,0 +1,54 @@
+body {
+    font-size: arial;
+    background: linear-gradient(to bottom, orange, violet);
+}
+
+.box {
+    height: 650px;
+    width: 400px;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid cyan;
+    border-radius: 12px;
+}
+
+.motto {
+    background: slateblue;
+    padding: 11px;
+    border-left: 3px solid burlywood;
+    margin: 18px 0;
+    font-style: arial;
+    text-align: center;
+    border-end-end-radius: 12px;
+}
+
+.Narrator {
+    display: flex;
+    gap: 14px;
+    background: goldenrod;
+    padding: 11px;
+    border-start-end-radius: 7px;
+}
+
+.Narrator b {
+    color: lime;
+}
+
+.Narrator img {
+    width: 110px;
+    height: 110px;
+    border-radius: px;
+}
+
+.footer {
+    background: green;
+    color: black;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    border-end-end-radius: 7px;
+}
